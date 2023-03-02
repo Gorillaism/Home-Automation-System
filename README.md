@@ -10,13 +10,16 @@ Ir sensor - in alarm system
 RGB - light up room
 
 Door contact:
+
 Q = A AND B
 
-Temperature sensor collects the temperature once every minute:
-Every 2 hours calculate average and deviation <br />
-T = Time = 120 minutes <br />
-X = Value = Temperature every minute <br />
-A = Average = (X_1 + X_2 + ….. +X_T) / 120 minutes <br />
-Deviation:
+Temperature sensor:
 
-![quicklatex com-bdb323c6834ba181fb82a01bbdd1343f_l3](https://user-images.githubusercontent.com/114096417/222475047-ad44a96c-8475-478d-8189-aa0e26bd8a62.png)
+The sensor sends the tempurature data every minute. After every 1 hour, the sverage and deviation is calculated. <br />
+Every 2 hours calculate average and deviation <br />
+t = Time = 120 minutes <br />
+X = Value = Temperature every minute <br />
+A = Average = (X_1 + X_2 + … +X_T) / 120 minutes <br />
+Deviation = sqrt(sum of((X - A)^2)/T)
+
+![equation](https://user-images.githubusercontent.com/114096417/222475047-ad44a96c-8475-478d-8189-aa0e26bd8a62.png)
