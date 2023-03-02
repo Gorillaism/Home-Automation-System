@@ -23,7 +23,9 @@ The sensor sends the tempurature data once every minute. After every 1 hour, the
 t = Time = 60 minutes <br />
 c = Celsius = Temperature every minute <br />
 a = Average = 
+
 \frac{1}{t}\sum c_i
+
 Deviation = sqrt(sum of((c - a)^2)/t-1)
 
 ![equation](https://user-images.githubusercontent.com/114096417/222480857-b17352bb-b963-4fe4-8874-51e6438808c5.png)
