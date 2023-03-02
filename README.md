@@ -13,9 +13,9 @@ Door contact:
 Q = A AND B
 
 Temperature sensor collects the temperature once every minute:
-Every 2 hours calculate average and deviation
-T = Time = 120 minutes
-X = Value = Temperature every minute
+Every 2 hours calculate average and deviation <br />
+T = Time = 120 minutes <br />
+X = Value = Temperature every minute <br />
 A = Average = (X_1 + X_2 + ….. +X_T) / 120 minutes <br />
 Deviation:
 
