@@ -21,12 +21,24 @@ If either is broken, would trigger the alarm system to go off.
 ## Temperature sensor:
 The sensor sends the tempurature data once every minute. After every 1 hour, the average and deviation is calculated. <br />
 t = Time = 60 minutes <br />
-x = Temperature every minute <br />
-x = Average = (x_1 + x_2 + ...etc + x_t) / 60 minutes <br />
-Deviation = sqrt(sum of((x - a)^2)/t-1)
+c = Celsius = Temperature every minute <br />
+a = Average = (c_1 + c_2 + ...etc + c_t) / 60 minutes <br />
+Deviation = sqrt(sum of((c - a)^2)/t-1)
 
 ![equation](https://user-images.githubusercontent.com/114096417/222480857-b17352bb-b963-4fe4-8874-51e6438808c5.png)
 
+Default output will be Celsius with option to chnage to Fharenheit <br />
+f = Fharenheit = (c * 1.8) + 32
+
 ## Scale
 
-## 
+## Lights
+Change RGB light colors with Hex color code. <br />
+Converting the hex color code to decimal value for RGB. <br />
+Split the hex color code into 3 sections: <br />
+#D718A1 = D7|18|A1 <br />
+R: 0xD7 = (13 * 16) + 7 = 215 <br />
+G: 0x18 = (1 * 16) + 8 = 24 <br />
+B: 0xA1 = (10 * 16) + 1 = 161 <br />
+
+
