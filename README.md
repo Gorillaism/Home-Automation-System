@@ -10,11 +10,11 @@ Ir sensor - in alarm system
 RGB - light up room
 
 ## Door contact:
+There would be a magnetic connection on the door and the doorway
 
 Q = A AND B
 
 ## Temperature sensor:
-
 The sensor sends the tempurature data every minute. After every 1 hour, the sverage and deviation is calculated. <br />
 t = Time = 60 minutes <br />
 x = Temperature every minute <br />
