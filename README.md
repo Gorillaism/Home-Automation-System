@@ -9,11 +9,11 @@ Alarm system - give user 30 sec to walk in and disable
 Ir sensor - in alarm system
 RGB - light up room
 
-Door contact:
+##Door contact:
 
 Q = A AND B
 
-Temperature sensor:
+##Temperature sensor:
 
 The sensor sends the tempurature data every minute. After every 1 hour, the sverage and deviation is calculated. <br />
 t = Time = 60 minutes <br />
@@ -22,3 +22,5 @@ x = Average = (x_1 + x_2 + ...etc + x_t) / 60 minutes <br />
 Deviation = sqrt(sum of((x - a)^2)/t-1)
 
 ![equation](https://user-images.githubusercontent.com/114096417/222480857-b17352bb-b963-4fe4-8874-51e6438808c5.png)
+
+##
