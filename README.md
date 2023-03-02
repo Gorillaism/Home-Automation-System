@@ -21,4 +21,4 @@ x = Temperature every minute <br />
 x = Average = (x_1 + x_2 + ...etc + x_t) / 60 minutes <br />
 Deviation = sqrt(sum of((x - a)^2)/t-1)
 
-![equation](https://user-images.githubusercontent.com/114096417/222475047-ad44a96c-8475-478d-8189-aa0e26bd8a62.png)
+![equation](https://user-images.githubusercontent.com/114096417/222479708-fa9c3d2c-0929-4515-9aa8-1cf362119efb.png)
