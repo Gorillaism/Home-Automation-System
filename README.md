@@ -11,8 +11,10 @@ RGB - light up room
 
 ## Door contact:
 There would be a magnetic connection on the door and the doorway
-
 Q = A AND B
+## Alarm
+The Alarm system would work in conjuction with the door contact if turned on
+Q = (A AND B) AND C
 
 ## Temperature sensor:
 The sensor sends the tempurature data every minute. After every 1 hour, the sverage and deviation is calculated. <br />
