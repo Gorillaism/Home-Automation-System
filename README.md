@@ -17,5 +17,5 @@ Every 2 hours calculate average and deviation
 T = Time = 120 minutes
 X = Value = Temperature every minute
 A = Average = (X_1 + X_2 + ….. +X_T) / 120 minutes <br />
-Deviation = \[ \sum_{n=1}^{\T} (X-A)^2 = 1 \]
+Deviation = $$\mathrm{e}
 
