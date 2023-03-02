@@ -24,7 +24,7 @@ t = Time = 60 minutes <br />
 c = Celsius = Temperature every minute <br />
 a = Average = 
 
-\frac{1}{t}\sum c_i
+\mu \frac{1}{t}\sum c_i
 
 Deviation = sqrt(sum of((c - a)^2)/t-1)
 
