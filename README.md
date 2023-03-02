@@ -22,7 +22,7 @@ If either is broken, would trigger the alarm system to go off.
 The sensor sends the tempurature data once every minute. After every 1 hour, the average and deviation is calculated. <br />
 t = Time = 60 minutes <br />
 c = Celsius = Temperature every minute <br />
-a = Average = (c_1 + c_2 + ...etc + c_t) / 60 minutes <br />
+a = Average = \frac{1}{t}\sum c_i / 60 minutes <br />
 Deviation = sqrt(sum of((c - a)^2)/t-1)
 
 ![equation](https://user-images.githubusercontent.com/114096417/222480857-b17352bb-b963-4fe4-8874-51e6438808c5.png)
