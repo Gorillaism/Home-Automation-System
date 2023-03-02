@@ -10,10 +10,10 @@ Ir sensor - in alarm system
 RGB - light up room
 
 ## Door contact:
-There would be a magnetic connection on the door and the doorway
+There would be a magnetic connection on the door and the doorway <br />
 Q = A AND B
 ## Alarm
-The Alarm system would work in conjuction with the door contact if turned on
+The Alarm system would work in conjuction with the door contact if turned on <br />
 Q = (A AND B) AND C
 
 ## Temperature sensor:
