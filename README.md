@@ -32,6 +32,8 @@ Fharenheit = (x * 1.8) + 32
 ## Scale
 
 ## Lights
+Adjust light level <br />
+PMW <br />
 Change RGB light colors with Hex color code. <br />
 Converting the hex color code to decimal value for RGB. <br />
 Split the hex color code into 3 sections - #D718A1 -> D7|18|A1 <br />
