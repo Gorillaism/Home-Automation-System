@@ -25,9 +25,9 @@ The sensor sends the tempurature data once every minute. After every 1 hour, the
 n = Time = 60 minutes  
 x = Celsius = Temperature every minute  
 u = Average = (x_1 + x_2 + ...etc + x_n) / 60 minutes  
-Deviation = sqrt(sum of((x - u)^2)/n-1)
+Deviation = sqrt(sum of((x - u)^2)/n)
 
-![equation](https://user-images.githubusercontent.com/114096417/222480857-b17352bb-b963-4fe4-8874-51e6438808c5.png)
+![equation](https://user-images.githubusercontent.com/114096417/222975354-028e4ae0-a154-4385-a29b-38cfb7de0c2e.png)
   
 Default output will be Celsius with option to change to Fharenheit:  
 Fharenheit = (x * 1.8) + 32
