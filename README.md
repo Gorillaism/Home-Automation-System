@@ -4,10 +4,10 @@ I want to develope a home automation system.
 It is going include home security functions for the door, Tempurature sensor to check the tempurature, Lights functions like dimming and changing colors
 
 ## Hardware
-Magnet contacts     - Door security
-Tempurature sensor  - Read Tempurature
-RGB lights          - Changing light color
-Light Dimmer        - Changing light level
+Magnet contacts     - Door security  
+Tempurature sensor  - Read Tempurature  
+RGB lights          - Changing light color  
+Light Dimmer        - Changing light level  
 
 
 ## Home security
