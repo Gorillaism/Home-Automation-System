@@ -32,8 +32,9 @@ Fharenheit = (x * 1.8) + 32
 ## Scale
 
 ## Lights
-Adjust light level, find out long long we should pulse for for different percentage of light. <br />
 ### PWM - Pulse Width Modulation <br />
+Adjust light level, find out long long we should pulse for for different percentage of light. <br />
+
 Most common frequeuncy for dimmer is 500Hz. <br />
 Pulse width and time is in seconds. <br />
 Duty cycle is in decimal percentage. Example 25% = 0.25 <br />
