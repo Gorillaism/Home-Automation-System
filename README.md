@@ -27,6 +27,7 @@ x = Celsius = Temperature every minute
 u = Average = (x_1 + x_2 + ...etc + x_n) / 60 minutes  
 Deviation = sqrt(sum of((x - u)^2)/n)
 
+Population standard deviation formula:  
 ![equation](https://user-images.githubusercontent.com/114096417/222975354-028e4ae0-a154-4385-a29b-38cfb7de0c2e.png)
   
 Default output will be Celsius with option to change to Fharenheit:  
