@@ -17,7 +17,7 @@ Q = A AND B
 
 ### Alarm system:
 The Alarm system would work in conjuction with the door contact if turned on.  
-Q = (A AND B) AND C <br />
+Q = (A AND B) AND C  
 If either is broken, would trigger the alarm system to go off.
 
 ## Temperature sensor:
