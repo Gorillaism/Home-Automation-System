@@ -1,7 +1,10 @@
 # Home-Automation-System
 I want to develope a home automation system.
 
-It is going include home security functions for the door, Tempurature sensor to check the tempurature, Lights functions like dimming and changing colors
+It is going include:  
+Home security functions for the door  
+Tempurature sensor to check the tempurature  
+Lights functions like dimming and changing colors
 
 ## Hardware
 Magnet contacts     - Door security  
