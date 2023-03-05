@@ -40,12 +40,12 @@ Pulse width and time is in seconds. <br />
 Duty cycle is in decimal percentage. Example 25% = 0.25 <br />
 PW = Pulse width <br />
 D = Duty cycle <br />
-T = 1/f = Time <br />
+T = 1 / f = Time <br />
 f = Frequense = Hz <br />
 
 PW = D * T <br />
 
-T = 1/f = 1 / 500 = 0.002 <br/>
+T = 1 / f = 1 / 500 = 0.002 <br/>
 D = 25% = 0.25 <br />
 PW = 0.25 * 0.002 = 0.0005 <br />
 
