@@ -1,18 +1,21 @@
 # Home-Automation-System
 I want to develope a home automation system.
-Door contact - notify when door is open - magnet
-Temperature sensor - home heating system
-Light sensor -  Check light level and dim
-Alarm system - give user 30 sec to walk in and disable
-Ir sensor - in alarm system
-RGB - light up room
-In home scale
 
-## Door contact:
+It is going include home security functions for the door, Tempurature sensor to check the tempurature, Lights functions like dimming and changing colors
+
+## Hardware
+Magnet contacts     - Door security
+Tempurature sensor  - Read Tempurature
+RGB lights          - Changing light color
+Light Dimmer        - Changing light level
+
+
+## Home security
+### Door contact:
 There would be a magnetic connection on the door and the doorway. <br />
 Q = A AND B
 
-## Alarm system:
+### Alarm system:
 The Alarm system would work in conjuction with the door contact if turned on. <br />
 Q = (A AND B) AND C <br />
 If either is broken, would trigger the alarm system to go off.
@@ -38,8 +41,8 @@ Adjust light level, find out long long we should pulse for for different percent
 Most common frequeuncy for dimmer is 500Hz. <br />
 Pulse width and time is in seconds. <br />
 Duty cycle is in decimal percentage. Example 25% = 0.25 <br />
-PW = Pulse width <br />
-D = Duty cycle <br />
+PW = Pulse width in seconds <br />
+D = Duty cycle in decimal percentage <br />
 T = 1 / f = Time <br />
 f = Frequense = Hz <br />
 
