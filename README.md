@@ -32,12 +32,25 @@ Fharenheit = (x * 1.8) + 32
 ## Scale
 
 ## Lights
-Adjust light level <br />
-PMW - Find out long long we should pulse for for different percentage of light <br />
-f = frequense = Hz
-PW = D * T <br />
-f = 1/T <br />
+Adjust light level, find out long long we should pulse for for different percentage of light. <br />
+### PWM - Pulse Width Modulation <br />
+Most common frequeuncy for dimmer is 500Hz. <br />
+Pulse width and time is in seconds. <br />
+Duty cycle is in decimal percentage. Example 25% = 0.25 <br />
+PW = Pulse width <br />
+D = Duty cycle <br />
+T = 1/f = Time <br />
+f = Frequense = Hz <br />
 
+PW = D * T <br />
+
+T = 1/f = 1 / 500 = 0.002 <br/>
+D = 25% = 0.25 <br />
+PW = 0.25 * 0.002 = 0.0005 <br />
+
+To achieve 25% light, it should pulse for 0.0005 seconds every 0.002 seconds <br />
+
+### Hex to RGB
 Change RGB light colors with Hex color code. <br />
 Converting the hex color code to decimal value for RGB. <br />
 Split the hex color code into 3 sections - #D718A1 -> D7|18|A1 <br />
