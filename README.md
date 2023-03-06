@@ -125,4 +125,15 @@ public:
         this->g = ((hex >> 8) & 0xFF);
         this->b = ((hex)&0xFF);
     }
+    void setRGB(int hex)
+    {
+        this->r = ((hex >> 16) & 0xFF);
+        this->g = ((hex >> 8) & 0xFF);
+        this->b = ((hex)&0xFF);
+    }
+
+    void getRGB()
+    {
+        std::cout << "R: " << this->r << "\tG: " << this->g << "\tB:" << this->b << std::endl;
+    }
 };
