@@ -23,6 +23,39 @@ The Alarm system would work in conjuction with the door contact if turned on.
 Q = (A AND B) AND C  
 If either is broken, would trigger the alarm system to go off.
 
+The code for the Home security would look something like this:  
+```cpp
+// data place holder for input with hardware
+bool contact1 = true, contact2 = true, alarm_status = true;
+
+bool door_close(bool c1, bool c2)
+{
+    if (c1 && c2)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
+
+int main()
+{
+    if (door_close(contact1, contact2) && alarm_status)
+    {
+        std::cout << "Alarm is armed and ready" << std::endl;
+    }
+    else if (!alarm_status)
+    {
+        std::cout << "Alarm is off" << std::endl;
+    }
+    else
+    {
+        std::cout << "Alarm has been triggered, Authorities has been contacted" << std::endl;
+    }
+}
+
 ## Temperature sensor:
 The sensor sends the tempurature data once every minute. After every 1 hour, the average and deviation is calculated.  
 n = Time = 60 minutes  
@@ -80,3 +113,4 @@ public:
         this->g = ((hex >> 8) & 0xFF);
         this->b = ((hex)&0xFF);
     }
+};
