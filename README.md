@@ -90,6 +90,7 @@ PW = 0.25 * 0.002 = 0.0005
 
 To achieve 25% light, it should pulse for 0.0005 seconds every 0.002 seconds  
 ```cpp
+// Place holder data
 float light_level = 25, hz = 500;
 
 void pulse_width()
@@ -137,3 +138,5 @@ public:
         std::cout << "R: " << this->r << "\tG: " << this->g << "\tB:" << this->b << std::endl;
     }
 };
+```  
+
