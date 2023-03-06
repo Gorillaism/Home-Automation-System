@@ -36,8 +36,6 @@ Population standard deviation formula:
 Default output will be Celsius with option to change to Fharenheit:  
 Fharenheit = (x * 1.8) + 32
 
-## Scale
-
 ## Lights
 ### PWM - Pulse Width Modulation
 Adjust light level, find out long long we should pulse for for different percentage of light.  
