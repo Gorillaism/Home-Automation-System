@@ -99,7 +99,7 @@ void pulse_width()
     float percent = light_level/100;
     float pulse = percent * time;
 
-    std::cout << "Standard equipment: "<< hz <<"hz dimmer\t Percentage: " << light_level << "%" <<std::endl;
+    std::cout << "Standard equipment: "<< hz <<"hz dimmer\t Percentage: " << light_level << "%" << std::endl;
     std::cout << "The light needs to pulse for " << pulse << " seconds every " << time << " seconds" << std::endl;
 }
 ```  
