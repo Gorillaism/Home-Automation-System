@@ -89,7 +89,19 @@ D = 25% = 0.25
 PW = 0.25 * 0.002 = 0.0005  
 
 To achieve 25% light, it should pulse for 0.0005 seconds every 0.002 seconds  
+```cpp
+float light_level = 25, hz = 500;
 
+void pulse_width()
+{
+    float time = 1 / hz;
+    float percent = light_level/100;
+    float pulse = percent * time;
+
+    std::cout << "Standard equipment: "<< hz <<"hz dimmer\t Percentage: " << light_level << "%" <<std::endl;
+    std::cout << "The light needs to pulse for " << pulse << " seconds every " << time << " seconds" << std::endl;
+}
+```  
 ### Hex to RGB
 Change RGB light colors with Hex color code.  
 Converting the hex color code to decimal value for RGB.  
@@ -97,7 +109,6 @@ Split the hex color code into 3 sections - #D718A1 -> D7|18|A1
 R: 0xD7 = (13 * 16) + 7 = 215  
 G: 0x18 = (1 * 16) + 8 = 24  
 B: 0xA1 = (10 * 16) + 1 = 161  
-
 The Code could look something like this:  
 ```cpp
 int hex_color = 0xD718A1;
