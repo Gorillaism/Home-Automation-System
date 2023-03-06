@@ -55,6 +55,7 @@ int main()
         std::cout << "Alarm has been triggered, Authorities has been contacted" << std::endl;
     }
 }  
+´´´
 
 ## Temperature sensor:
 The sensor sends the tempurature data once every minute. After every 1 hour, the average and deviation is calculated.  
