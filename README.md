@@ -63,3 +63,20 @@ Split the hex color code into 3 sections - #D718A1 -> D7|18|A1
 R: 0xD7 = (13 * 16) + 7 = 215  
 G: 0x18 = (1 * 16) + 8 = 24  
 B: 0xA1 = (10 * 16) + 1 = 161  
+```cpp
+int hex_color = 0xD718A1;
+
+class RGB
+{
+    int r;
+    int g;
+    int b;
+
+public:
+    RGB(int hex)
+    {
+        this->r = ((hex >> 16) & 0xFF);
+        this->g = ((hex >> 8) & 0xFF);
+        this->b = ((hex)&0xFF);
+    }
+   ´´´
