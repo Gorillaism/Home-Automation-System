@@ -80,4 +80,3 @@ public:
         this->g = ((hex >> 8) & 0xFF);
         this->b = ((hex)&0xFF);
     }
-    
